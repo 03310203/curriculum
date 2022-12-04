@@ -1,0 +1,33 @@
+header, footer {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(156, 156, 226);
+ }
+
+.zone {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(245, 170, 170);
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    font-size: 35px;
+}
+ 
+  .l-zone {
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(90deg, yellow, orange 30%, red);
+  }
+
+  .c-zone {
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(90deg, blue,green, yellow);
+  }
+
+ .r-zone {
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(90deg, rgba(210, 2, 242, 0.467),rgb(205, 104, 245), rgb(224, 149, 235));
+ }

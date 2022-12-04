@@ -1,0 +1,42 @@
+/* body */
+body {
+    background-color: #9999; 
+    width: 100%;
+    height: auto;
+    margin: 2%;
+}
+
+.main {
+    background-color: pink;
+    width:70%;
+    height: auto;
+    border: 15px solid rgba(245, 237, 6, 0.958);
+}
+
+.area1 {
+    background-color:rgb(70, 68, 68);
+    color:white;
+    width: 10%;
+    opacity: 0.6;
+    
+}
+
+.area2 {
+    background: linear-gradient(to right,blue,green,rgb(58, 150, 0)) ; 
+    color: white;
+    height: auto;
+    width: 10%;
+}
+
+.area3 {
+    background: linear-gradient(90deg, yellow, orange 30%, red);
+    color:white;
+    height: auto;
+    width: 10%;
+}
+
+li {
+     margin-top:5%;
+    margin-bottom:5%; 
+    list-style-type:none;
+} 
